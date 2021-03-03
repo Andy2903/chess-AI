@@ -3,12 +3,11 @@
 ## Prerequests
 
 - `sudo apt-get install python3.7`
-- `python3.7 -m pip install -r requirements.txt`
 
 ## Install guide
 
 - `git clone https://github.com/Andy2903/chess-AI.git`
-- `pip install -r requirements.txt`
+- `python3.7 -m pip install -r requirements.txt`
 
 ## Compiling the engine
 
