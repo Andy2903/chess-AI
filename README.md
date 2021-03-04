@@ -2,7 +2,7 @@
 
 Running instance playable at: [https://lichess.org/@/schach-KI](https://lichess.org/@/schach-KI)
 
-## Prerequests
+## Prerequisite
 
 - `sudo apt-get install python3`
 
