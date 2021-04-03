@@ -12,7 +12,10 @@ def next_move(board):
 	"""
 	calculate_material(board)
 
-	max(board, DEPTH, -MAXVALUE, MAXVALUE)
+	if board.turn:
+		max(board, DEPTH, -MAXVALUE, MAXVALUE)
+	else:
+		min(board, DEPTH, -MAXVALUE, MAXVALUE)
 	if SAVED_MOVE is None:
 		print("No moves found")
 	else:
